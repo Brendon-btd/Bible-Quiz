@@ -1,38 +1,38 @@
 const questions = [
     {
-        question : "What was the first miracle Jesus performed?",
+        question : "Who interpreted Pharaoh's dream about 7 fat and 7 skinny cows?",
         answers: [
-            {text:"Turning water into wine ", correct: true},
-            {text:"Healing a blind man", correct: false},
-            {text:"Feeding 5000", correct: false},
-            {text:"Raising Lazarus", correct: false},
+            {text:"Joseph ", correct: true},
+            {text:"Moses", correct: false},
+            {text:"Daniel", correct: false},
+            {text:"Aaron", correct: false},
         ]
     },
     {
-       question : "What is the shortest verse in the Bible?",
+       question : "How many plagues did God send upon Egypt?",
         answers: [
-            {text:"God is love.", correct: false},
-            {text:"Rejoice always.", correct: false},
-            {text:"Pray without ceasing.", correct: false},
-            {text:"Jesus wept.", correct: true},
+            {text:"5", correct: false},
+            {text:"11", correct: false},
+            {text:"6", correct: false},
+            {text:"10", correct: true},
         ]  
     },
     {
-         question : "What was the name of Abraham’s brother who was the father of Lot?",
+         question : "What was Peter's profession before following Jesus?",
         answers: [
-            {text:"Simon", correct: false},
-            {text:"Andrew", correct: false},
-            {text:"Haran", correct: true},
-            {text:"Laban", correct: false},
+            {text:"Tax collector", correct: false},
+            {text:"Tentmaker", correct: false},
+            {text:"Fisherman", correct: true},
+            {text:"Carpenter", correct: false},
         ]
     },
     {
-         question : "How many times did Paul receive 39 lashes?",
+         question : "Who was the woman who turned into a pillar of salt?",
         answers: [
-            {text:"Five times", correct: true},
-            {text:"Three times", correct: false},
-            {text:"Seven times", correct: false},
-            {text:"Ten times", correct: false},
+            {text:"Lot's wife", correct: true},
+            {text:"Miriam", correct: false},
+            {text:"Rebekah", correct: false},
+            {text:"Naomi", correct: false},
         ]
     },
     {
@@ -45,12 +45,12 @@ const questions = [
         ]
     },
     {
-         question : "Who stole household gods from her father and sat on them to hide them?",
+         question : "What was the name of the strong man betrayed by Delilah?",
         answers: [
-            {text:"Rachel", correct: true},
-            {text:"Leah", correct: false},
-            {text:"Miriam", correct: false},
-            {text:"Deborah", correct: false},
+            {text:"Samson", correct: true},
+            {text:"David", correct: false},
+            {text:"Saul", correct: false},
+            {text:"Absalom", correct: false},
         ]
     },
     {
@@ -63,12 +63,12 @@ const questions = [
         ]
     },
     {
-         question : "Who led the Israelites into the Promised Land after Moses died?",
+         question : "What did Jesus say one must do to enter the Kingdom of God?",
         answers: [
-            {text:"Aaron", correct: false},
-            {text:"Joshua", correct: true},
-            {text:"Phinehas", correct: false},
-            {text:"Gideon", correct: false},
+            {text:"Be baptized in the sea", correct: false},
+            {text:"Be born again", correct: true},
+            {text:"Follow Moses law", correct: false},
+            {text:"Keep the 10 Commandments", correct: false},
         ]
     },
     {
@@ -81,66 +81,66 @@ const questions = [
         ]
     },
     {
-         question : "How many people were saved on Noah’s Ark?",
+         question : "What book comes after the four Gospels?",
         answers: [
-            {text:"Eight", correct: true},
-            {text:"Six", correct: false},
-            {text:"Ten", correct: false},
-            {text:"Twelve", correct: false},
+            {text:"Acts", correct: true},
+            {text:"Revelation", correct: false},
+            {text:"Hebrews", correct: false},
+            {text:"Romans", correct: false},
         ]
     },
      {
-         question : "What did God provide from heaven for the Israelites to eat in the desert?",
+         question : "Who wrote the book of Revelation?",
         answers: [
-            {text:"Quail only", correct: false},
-            {text:"Bread", correct: false},
-            {text:"Manna", correct: true},
-            {text:"Figs", correct: false},
+            {text:"Paul", correct: false},
+            {text:"Matthew", correct: false},
+            {text:"John", correct: true},
+            {text:"Peter", correct: false},
         ]
     },
     {
-         question : "What city’s walls fell down after the Israelites marched around them for 7 days?",
+         question : "Who wrote most of the Psalms?",
         answers: [
-            {text:"Jericho", correct: true},
-            {text:"Damascus", correct: false},
-            {text:"Hebron", correct: false},
-            {text:"Bethlehem", correct: false},
+            {text:"David", correct: true},
+            {text:"Solomon", correct: false},
+            {text:"Moses", correct: false},
+            {text:"Asaph", correct: false},
         ]
     },
     {
-         question : "What was the occupation of Matthew before following Jesus?",
+         question : "What did Jesus do just before raising Lazarus?",
         answers: [
-            {text:"Fisherman", correct: false},
-            {text:"Tax Collector", correct: true},
-            {text:"Tent Maker", correct: false},
-            {text:"Shepherd", correct: false},
+            {text:"Knocked on the tomb", correct: false},
+            {text:"Wept", correct: true},
+            {text:"Asked for bread", correct: false},
+            {text:"Prayed silently", correct: false},
         ]
     },
     {
-         question : "How did the apostle Paul escape from Damascus?",
+         question : "Which prophet saw a vision of a valley of dry bones?",
         answers: [
-            {text:"Through the front gate at night", correct: false},
-            {text:"In a basket through a window in the wall ", correct: true},
-            {text:"Disguised as a guard", correct: false},
-            {text:"Hiding in a caravan", correct: false},
+            {text:"Elijah", correct: false},
+            {text:"Ezekiel ", correct: true},
+            {text:"Isiah", correct: false},
+            {text:"Jeremiah", correct: false},
         ]
     },
         {
-         question : "What was the name of the garden where Jesus prayed before His arrest?",
+         question : "Who reigned as queen of Persia and saved the Jews from destruction?",
         answers: [
-            {text:"Golgotha", correct: false},
-            {text:"Garden of Eden", correct: false},
-            {text:"Gethsemane", correct: true},
-            {text:"Mount of Olives", correct: false},
+            {text:"Deborah", correct: false},
+            {text:"Miriam", correct: false},
+            {text:"Esther", correct: true},
+            {text:"Racheal", correct: false},
         ]
     },
     {
-         question : "Who was the first king of Israel?",
+         question : "Who was the only female judge of Israel mentioned in the Bible?",
         answers: [
-            {text:"Saul", correct: true},
-            {text:"David", correct: false},
-            {text:"Solomon", correct: false},
-            {text:"Samuel", correct: false},
+            {text:"Deborah", correct: true},
+            {text:"Jael", correct: false},
+            {text:"Miriam", correct: false},
+            {text:"Esther", correct: false},
         ]
     },
 ];
